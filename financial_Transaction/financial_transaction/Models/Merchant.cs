@@ -1,8 +1,7 @@
 namespace financial_transaction.Models;
 
-public class Merchant
+public class Merchant: BaseEntity
 {   
-    Guid Id { get; set; }
     string City { get; set; }
     string? State { get; set; } //nullable
 }

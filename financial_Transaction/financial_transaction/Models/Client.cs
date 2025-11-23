@@ -1,6 +1,6 @@
 namespace financial_transaction.Models;
 
-public class Client
+public class Client: BaseEntity
 {
-    Guid Id { get; set; }
+    
 }
